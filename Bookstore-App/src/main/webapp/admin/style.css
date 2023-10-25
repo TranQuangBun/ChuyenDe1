@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.maincolor {
+	background: radial-gradient(759px at 14% 22.3%, rgb(10, 64, 88) 0%, rgb(15, 164, 102) 90%);
+}
+
+.header {
+	width: 100%;
+	background-image: radial-gradient(759px at 14% 22.3%, rgb(10, 64, 88) 0%, rgb(15, 164, 102) 90%);
+}
+
+.navbar .nav-item:hover .nav-link {
+	background-color: azure;
+	color: #000000;
+	border-radius: 20px;
+}
